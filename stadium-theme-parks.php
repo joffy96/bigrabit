@@ -27,7 +27,7 @@
 <body>
   <?php include "header.php"; ?>
     <!-- about us area wrapper main -->
-    <div class="rts-breadcrumb-area">
+    <div class="rts-breadcrumb-area" style="background-image: url('custom/stadium-theme-parks.png');">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">

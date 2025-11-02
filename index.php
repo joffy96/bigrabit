@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
-        content="Invena – A modern and responsive HTML template for consulting businesses. Perfect for finance, corporate, and agency websites. SEO-friendly, fast-loading, and easy to customize. Create a professional online presence today!">
+        content="BiGRABiT indoor navigation technology empowers businesses with precise wayfinding, real-time location tracking, and seamless navigation for complex environments—enhancing efficiency, safety, and user experience.">
     <link rel="shortcut icon" type="image/x-icon" href="assets/images/fav.png">
     <title>Next-Gen Indoor Navigation | Accurate Indoor Maps & Wayfinding</title>
     <link rel="stylesheet preload" href="assets/css/plugins/fontawesome.css" as="style">
@@ -35,13 +35,13 @@
             Your browser does not support the video tag.
         </video>
         <div class="banner-content-overlay" style="position: absolute; top:0; left:0; width:100%; height:100%; display:flex; align-items:center; justify-content:center; flex-direction:column;  text-align:center;">
-            <p class="pre-title" style="color:#000; font-size:1.2rem; margin-bottom:10px;">
+            <p class="pre-title" style="color:#fff; text-shadow: 0px 2px 5px rgba(0,0,0,0.6);font-size:1.2rem; margin-bottom:10px;">
                 <span>Welcome!</span> Start Growing Your Business Today
             </p>
-            <h1 class="title" style="color:#000; font-size:2.5rem; font-weight:700; margin-bottom:20px;">
+            <h1 class="title" style="color:#fff;text-shadow: 0px 2px 5px rgba(0,0,0,0.6); font-size:2.5rem; font-weight:700; margin-bottom:20px;">
                 Indoor Navigation &amp; Wayfinder Solution
             </h1>
-            <p class="disc" style="color:#000; max-width:600px; margin:0 auto 25px;">
+            <p class="disc" style="color:#fff;text-shadow: 0px 2px 5px rgba(0,0,0,0.6); max-width:600px; margin:0 auto 25px;">
                 BiGRABiT indoor navigation technology empowers businesses with precise wayfinding, real-time location tracking, and seamless navigation for complex environments—enhancing efficiency, safety, and user experience.
             </p>
             <a href="contact" class="rts-btn btn-primary btn-white" style="margin-top:10px;">Get Demo</a>

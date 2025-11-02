@@ -7,7 +7,7 @@
     <meta name="description"
         content="Way Finding">
     <link rel="shortcut icon" type="image/x-icon" href="assets/images/fav.png">
-    <title>Wayfinding</title>
+    <title>Way Finding</title>
     <link rel="stylesheet preload" href="assets/css/plugins/fontawesome.css" as="style">
     <link rel="stylesheet preload" href="assets/css/plugins/swiper.css" as="style">
     <link rel="stylesheet preload" href="assets/css/plugins/metismenu.css" as="style">
@@ -27,29 +27,15 @@
 <body>
   <?php include "header.php"; ?>
     <!-- about us area wrapper main -->
-    <div class="rts-breadcrumb-area" style="height:unset">
+    <div class="rts-breadcrumb-area">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     <div class="title-area-left center project-breadcrumb">
                         <span class="bg-title">Our Solutions</span>
                         <h1 class="title rts-text-anime-style-1">
-                           Wayfinding </h1>
-                        <p class="disc">
-                            Navigate Any Space with Ease. Finding the right place inside a large building can be confusing—especially for first-time visitors. Our Wayfinding Solution eliminates that frustration by providing clear, real-time guidance from the moment someone enters your facility until they reach their destination.
-                        </p>
-                        <h2>How Our Wayfinding Works</h2>
-                        <ol>
-                            <li><strong>Scan the QR Code</strong> – Visitors scan a strategically placed QR code at the entrance or information point.</li>
-                            <li><strong>Get the Route</strong> – The navigation path opens instantly on their smartphone or kiosk display.</li>
-                            <li><strong>Follow Turn-by-Turn Guidance</strong> – Step-by-step instructions lead them to their destination, with live updates if they take a wrong turn or areas are blocked.</li>
-                            <li><strong>Seamless Integration</strong> – Can connect with indoor navigation, visitor management systems, and accessibility features.</li>
-                        </ol>
-                        <p class="disc">
-                            Transform confusion into confidence.<br>
-                            <strong>Contact us today to implement a smart wayfinding system in your facility.</strong>
-                        </p>
-
+                            Way Finding
+                        </h1>
                     </div>
                 </div>
             </div>
@@ -62,6 +48,41 @@
     </div>
     <!-- about us area wrapper main end -->
 
+
+    <!-- rts project details area start -->
+    <div class=" rts-section-gapBottom">
+        <div class="container">
+            <div class="row">
+            <div class="col-lg-12">
+<p>Navigate Any Space with Ease. Finding the right place inside a large building can be confusing—especially for first-time visitors. Our Wayfinding Solution eliminates that frustration by providing clear, real-time guidance from the moment someone enters your facility until they reach their destination.</p>
+
+<p>How Our Wayfinding Works</p>
+
+<p>Scan the QR Code – Visitors scan a strategically placed QR code at the entrance or information point.</p>
+
+<p>Get the Route – The navigation path opens instantly on their smartphone or kiosk display.</p>
+
+<p>Follow Turn-by-Turn Guidance – Step-by-step instructions lead them to their destination, with live updates if they take a wrong turn or areas are blocked.</p>
+
+<p>Seamless Integration – Can connect with indoor navigation, visitor management systems, and accessibility features.</p>
+
+<p>Transform confusion into confidence.</p>
+
+<p>Contact us today to implement a smart wayfinding system in your facility.</p>
+
+            </div>
+
+                </div>
+            </div>
+        </div>
+
+                </div>
+                </div>
+            </div>
+        </div>
+     
+    </div>
+    <!-- rts project details area end -->
 
 
 

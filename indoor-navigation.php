@@ -27,7 +27,7 @@
 <body>
   <?php include "header.php"; ?>
     <!-- about us area wrapper main -->
-    <div class="rts-breadcrumb-area" style="height:unset">
+    <div class="rts-breadcrumb-area" style="background-image: url('custom/indoor-navigation.jpg');">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -36,42 +36,6 @@
                         <h1 class="title rts-text-anime-style-1">
                            Indoor Navigation
                         </h1>
-                       
-
-                        <div class="row">
-                            <div class="col-lg-6">
- <img src ="custom/indoor-navigation.jpg" alt="Indoor Navigation" class="img-fluid" style="max-width:100%;height:auto; margin-top:20px; margin-bottom:20px;">
-                            </div>
-                            <div class="col-lg-6">
-                        <div class="indoor-navigation-description">
-                            <p class="disc">
-                                Navigating large buildings can be as challenging as finding your way through city streets. Our Indoor Navigation System transforms complex indoor spaces into interactive, easy-to-follow maps, helping people move confidently and efficiently.
-                            </p>
-                                <p class="disc">Zone-based alerts for enhanced safety and awareness</p>
-                                <p class="disc">Precise location pinpointing within the facility</p>
-                                <p class="disc">Seamless guidance for users via smartphone or kiosk displays</p>
-
-                            <h3>How Our Solutions Work</h3>
-                            <ol class="solution-steps">
-                                <li>
-                                    <strong>Site Analysis:</strong> We begin with a detailed on-site assessment, studying building layout, floor structure, and movement flow to identify coverage needs.
-                                </li>
-                                <li>
-                                    <strong>Strategic Gateway Placement:</strong> Gateways are positioned for maximum signal coverage and accuracy, each equipped with Bluetooth Low Energy (BLE) 5.0 chipsets for fast scanning and energy efficiency.
-                                </li>
-                                <li>
-                                    <strong>Cloud Integration:</strong> Gateways connect seamlessly to platforms like AWS, Microsoft Azure, and Google IoT for real-time data processing and remote management.
-                                </li>
-                                <li>
-                                    <strong>Continuous Scanning:</strong> Gateways detect BLE beacons, sending secure data to the cloud for indoor navigation, asset tracking, and visitor management.
-                                </li>
-                            </ol>
-                            <p class="disc">
-                                Traditional GPS does not work indoors. Our solution leverages BLE beacons, Wi-Fi, and NFC to provide real-time positioning and step-by-step guidance in places where GPS fails—such as shopping malls, airports, hospitals, offices, museums, and amenity areas.
-                            </p>
-                        </div>
-                        </div>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -85,7 +49,42 @@
     <!-- about us area wrapper main end -->
 
 
- 
+    <!-- rts project details area start -->
+    <div class=" rts-section-gapBottom">
+        <div class="container">
+            <div class="row">
+            <div class="col-lg-12">
+           
+<p>Navigating large buildings can be as challenging as finding your way through city streets. Our Indoor Navigation System transforms complex indoor spaces into interactive, easy-to-follow maps, helping people move confidently and efficiently.</p>
+<p></p>
+<p>Zone-based alerts for enhanced safety and awareness</p>
+<p>Precise location pinpointing within the facility</p>
+<p>Seamless guidance for users via smartphone or kiosk displays</p>
+<p></p>
+<p>How Our Solutions Work</p>
+<p>Site Analysis: We begin with a detailed on-site assessment, studying building layout, floor structure, and movement flow to identify coverage needs.</p>
+<p>Strategic Gateway Placement: Gateways are positioned for maximum signal coverage and accuracy, each equipped with Bluetooth Low Energy (BLE) 5.0 chipsets for fast scanning and energy efficiency.</p>
+<p>Cloud Integration: Gateways connect seamlessly to platforms like AWS, Microsoft Azure, and Google IoT for real-time data processing and remote management.</p>
+<p>Continuous Scanning: Gateways detect BLE beacons, sending secure data to the cloud for indoor navigation, asset tracking, and visitor management.</p>
+<p></p>
+<p>Traditional GPS does not work indoors. Our solution leverages BLE beacons, Wi-Fi, and NFC to provide real-time positioning and step-by-step guidance in places where GPS fails—such as shopping malls, airports, hospitals, offices, museums, and amenity areas.</p>
+<p></p>
+
+            </div>
+
+                </div>
+            </div>
+        </div>
+
+                </div>
+                </div>
+            </div>
+        </div>
+     
+    </div>
+    <!-- rts project details area end -->
+
+
 
 
    <?php include "newsletter.php"; ?>

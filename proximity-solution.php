@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
-        content="Way Finding">
+        content="Proximity Solutions">
     <link rel="shortcut icon" type="image/x-icon" href="assets/images/fav.png">
-    <title>Proximity Solution</title>
+    <title>Proximity Solutions</title>
     <link rel="stylesheet preload" href="assets/css/plugins/fontawesome.css" as="style">
     <link rel="stylesheet preload" href="assets/css/plugins/swiper.css" as="style">
     <link rel="stylesheet preload" href="assets/css/plugins/metismenu.css" as="style">
@@ -27,7 +27,7 @@
 <body>
   <?php include "header.php"; ?>
     <!-- about us area wrapper main -->
-    <div class="rts-breadcrumb-area" style="height:unset">
+    <div class="rts-breadcrumb-area" style="background-image: url('custom/proximity-solution.jpg');">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -36,28 +36,6 @@
                         <h1 class="title rts-text-anime-style-1">
                             Proximity Solutions
                         </h1>
-                         <img src ="custom/proximity-solution.jpg" alt="proximity solution" style="max-width:100%;height:auto; margin-top:20px; margin-bottom:20px;">
-                        
-                        <p>
-                            Transform shopping experiences with <strong>BiGRABiT Proximity Services</strong>.
-                            We help retail stores engage customers in real time using Bluetooth beacons, gateways, and smart sensors. Deliver personalized offers, track foot traffic, and optimize store layouts – all while enhancing customer satisfaction and boosting sales.
-                        </p>
-                        <p>
-                            At BiGRABiT, we are redefining the retail experience with the power of IoT-driven Proximity Services. By using Bluetooth Low Energy (BLE) beacons, NFC, and smart wearables, our solutions allow retailers to understand customer presence, movement, and behavior inside the store like never before.
-                        </p>
-                        <p>
-                            Imagine a shopper walking into your store and instantly receiving personalized offers, product recommendations, or loyalty rewards directly on their phone. As they move through different sections, our proximity technology helps track foot traffic and generates heatmaps, enabling you to identify the most visited areas and optimize store layouts for maximum impact.
-                        </p>
-                        <p>
-                            Beyond customer engagement, our solutions extend to inventory and asset tracking. With beacon-enabled shelves, you can monitor stock levels in real time, prevent shrinkage, and streamline your supply chain. At the same time, shoppers benefit from seamless navigation, using QR codes or beacons to quickly find products or check in without waiting in line.
-                        </p>
-                        <p>
-                            Retail security also becomes smarter with BiGRABiT. Unauthorized access can be detected instantly, and crowd density can be monitored to ensure a safe shopping environment. The result is a retail space that is not only efficient and data-driven but also customer-centric.
-                        </p>
-                        <p>
-                            With BiGRABiT’s Proximity Services for Retail, your business can move beyond traditional shopping to create smart, connected, and engaging experiences. Retailers gain actionable insights, improved operations, and increased sales, while customers enjoy a personalized, seamless journey that keeps them coming back.
-                        </p>
-
                     </div>
                 </div>
             </div>
@@ -72,7 +50,34 @@
 
 
     <!-- rts project details area start -->
-   
+    <div class=" rts-section-gapBottom">
+        <div class="container">
+            <div class="row">
+            <div class="col-lg-12">
+            <p>Transform shopping experiences with BiGRABiT Proximity Services. We help retail stores engage customers in real time using Bluetooth beacons, gateways, and smart sensors. Deliver personalized offers, track foot traffic, and optimize store layouts – all while enhancing customer satisfaction and boosting sales.</p>
+
+            <p>At BiGRABiT, we are redefining the retail experience with the power of IoT-driven Proximity Services. By using Bluetooth Low Energy (BLE) beacons, NFC, and smart wearables, our solutions allow retailers to understand customer presence, movement, and behavior inside the store like never before.</p>
+
+            <p>Imagine a shopper walking into your store and instantly receiving personalized offers, product recommendations, or loyalty rewards directly on their phone. As they move through different sections, our proximity technology helps track foot traffic and generates heatmaps, enabling you to identify the most visited areas and optimize store layouts for maximum impact.</p>
+
+            <p>Beyond customer engagement, our solutions extend to inventory and asset tracking. With beacon-enabled shelves, you can monitor stock levels in real time, prevent shrinkage, and streamline your supply chain. At the same time, shoppers benefit from seamless navigation, using QR codes or beacons to quickly find products or check in without waiting in line.</p>
+
+Retail security also becomes smarter with BiGRABiT. Unauthorized access can be detected instantly, and crowd density can be monitored to ensure a safe shopping environment. The result is a retail space that is not only efficient and data-driven but also customer-centric.
+
+With BiGRABiT’s Proximity Services for Retail, your business can move beyond traditional shopping to create smart, connected, and engaging experiences. Retailers gain actionable insights, improved operations, and increased sales, while customers enjoy a personalized, seamless journey that keeps them coming back
+
+            </div>
+
+                </div>
+            </div>
+        </div>
+
+                </div>
+                </div>
+            </div>
+        </div>
+     
+    </div>
     <!-- rts project details area end -->
 
 

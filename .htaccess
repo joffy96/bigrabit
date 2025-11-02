@@ -7,3 +7,6 @@ RewriteRule ^ - [L]
 
 # Remove .php extension from URL
 RewriteRule ^([a-zA-Z0-9_-]+)$ $1.php [L]
+# Redirect /index or /index.php to root
+RewriteCond %{THE_REQUEST} \s/index(?:\.php)?[\s?] [NC]
+RewriteRule ^index(?:\.php)?$ / [R=301,L]

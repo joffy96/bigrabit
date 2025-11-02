@@ -1,8 +1,33 @@
 <style>
-
+.bg-title{
+    display: none;
+}
+.rts-breadcrumb-area .title-area-left .title {
+    position: relative;
+    z-index: 2;
+    color: #fff;
+    font-size: 42px;
+    line-height: 1.23;
+    text-shadow: 0 3px 8px rgba(0, 0, 0, 0.7);
+}
     .project-details-thumbnail img{
         width: 100%;
         height: auto;
+    }
+    .main-logo {
+        width: 40%;
+    }
+    .thumbnail {
+        min-height: 100px;
+      
+    }
+    @media (max-width: 767px) {
+        .main-logo {
+            width: 70%;
+        }
+        .thumbnail {
+            min-height: 40px;
+        }
     }
 </style>
 
@@ -48,9 +73,9 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="header-main-one-wrapper">
-                        <div class="thumbnail" style="background: #fff;border-radius: 50%;min-height: 100px;">
+                        <div class="thumbnail" style="background: #fff;border-radius: 50%;">
                             <a href="index">
-                                <img src="assets/images/logo/bigrabit.png" style="width: 100px;" alt="finbiz-logo">
+                                <img src="assets/images/logo/bigrabit-new.png" class="main-logo" alt="finbiz-logo">
                             </a>
                         </div>
                         <div class="main-header">
@@ -70,21 +95,9 @@
                                         <a href="#">Industries</a>
                                         <?php include "verticals.php" ?>
                                     </li>
-                                    <!-- <li class="main-nav has-dropdown project-a-after">
-                                        <a href="#">Blog</a>
-                                        <ul class="submenu parent-nav">
-                                            <li><a href="blog-grid">Blog Grid</a></li>
-                                            <li><a href="blog-list">Blog List</a></li>
-                                            <li><a href="blog-details">Blog Details</a></li>
-                                            <li><a href="blog-details-2">Blog Details 2</a></li>
-                                        </ul>
-                                    </li> -->
                                     <li class="main-nav  project-a-after">
-                                        <a href="#">Blogs</a>
-                                        <!-- <ul class="submenu parent-nav">
-                                            <li><a href="contact">Contact</a></li>
-                                            <li><a href="contact-2">Contact 2</a></li>
-                                        </ul> -->
+                                        <a href="blog">Blogs</a>
+                                
                                     </li>
                                 </ul>
                             </div>

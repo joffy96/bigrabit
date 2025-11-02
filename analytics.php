@@ -27,35 +27,15 @@
 <body>
   <?php include "header.php"; ?>
     <!-- about us area wrapper main -->
-    <div class="rts-breadcrumb-area" style="height:unset">
+    <div class="rts-breadcrumb-area" style="background-image: url('custom/analytics.jpg');">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     <div class="title-area-left center project-breadcrumb">
                         <span class="bg-title">Our Solutions</span>
                         <h1 class="title rts-text-anime-style-1">
-                            Analytics </h1>
-                        <img src ="custom/analytics.jpg" alt="Analytics" style="max-width:100%;height:auto; margin-top:20px; margin-bottom:20px;">
-                        <p class="disc">
-                            In shopping malls and retail spaces, every visitor counts—literally. At BiGRABiT, our IoT-powered Analytics track how many people enter, how long they stay, and when they leave, giving mall operators and retailers valuable insights into customer behavior.
-                        </p>
-                        <p class="disc">
-                            With smart Bluetooth beacons, gateways, and sensors, our system captures real-time foot traffic data across entrances, floors, and individual stores. This helps businesses understand peak hours, customer flow patterns, and repeat visits—turning raw visitor counts into actionable intelligence.
-                        </p>
-                        <p class="disc">
-                            <strong>For example, mall managers can:</strong>
-                                <p class="disc">See which entrances attract the most visitors.</p>
-                                <p class="disc">Measure dwell time in food courts, entertainment zones, or anchor stores.</p>
-                                <p class="disc">Compare weekday vs. weekend traffic.</p>
-                                <p class="disc">Provide retailers with accurate visitor statistics to support sales strategies and rental pricing.</p>
-                        </p>
-                        <p class="disc">
-                            For retailers inside the mall, the benefits are even stronger. By analyzing how many people passed by, how many entered, and how many made a purchase, BiGRABiT Analytics helps measure conversion rates and identify which promotions truly work.
-                        </p>
-                        <p class="disc">
-                            The result is a smarter shopping mall—one where operators maximize space utilization, retailers boost sales, and customers enjoy a smoother experience.
-                        </p>
-
+                           Analytics
+                        </h1>
                     </div>
                 </div>
             </div>
@@ -69,7 +49,33 @@
     <!-- about us area wrapper main end -->
 
 
- 
+    <!-- rts project details area start -->
+    <div class=" rts-section-gapBottom">
+        <div class="container">
+            <div class="row">
+            <div class="col-lg-12">
+        <p>In shopping malls and retail spaces, every visitor counts—literally. At BiGRABiT, our IoT-powered Analytics track how many people enter, how long they stay, and when they leave, giving mall operators and retailers valuable insights into customer behavior.<br><br>
+        With smart Bluetooth beacons, gateways, and sensors, our system captures real-time foot traffic data across entrances, floors, and individual stores. This helps businesses understand peak hours, customer flow patterns, and repeat visits—turning raw visitor counts into actionable intelligence.<br><br>
+        For example, mall managers can:<br>
+        • See which entrances attract the most visitors.<br>
+        • Measure dwell time in food courts, entertainment zones, or anchor stores.<br>
+        • Compare weekday vs. weekend traffic.<br>
+        • Provide retailers with accurate visitor statistics to support sales strategies and rental pricing.<br><br>
+        For retailers inside the mall, the benefits are even stronger. By analyzing how many people passed by, how many entered, and how many made a purchase, BiGRABiT Analytics helps measure conversion rates and identify which promotions truly work.<br><br>
+        The result is a smarter shopping mall—one where operators maximize space utilization, retailers boost sales, and customers enjoy a smoother experience.</p>
+
+            </div>
+
+                </div>
+            </div>
+        </div>
+
+                </div>
+                </div>
+            </div>
+        </div>
+     
+    </div>
     <!-- rts project details area end -->
 
 

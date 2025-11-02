@@ -5,9 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
-        content="Real-time Tracking ">
+        content="Real-time Tracking">
     <link rel="shortcut icon" type="image/x-icon" href="assets/images/fav.png">
-    <title>Real-time Tracking </title>
+    <title>Real-time Tracking
+</title>
     <link rel="stylesheet preload" href="assets/css/plugins/fontawesome.css" as="style">
     <link rel="stylesheet preload" href="assets/css/plugins/swiper.css" as="style">
     <link rel="stylesheet preload" href="assets/css/plugins/metismenu.css" as="style">
@@ -23,42 +24,19 @@
     <link rel="preload" as="image" href="assets/images/banner/21.webp" />
     <link rel="stylesheet preload" href="assets/css/style.css" as="style">
 </head>
-<style>
-ol li ::marker{
-    display: none;
-}
 
-</style>
 <body>
   <?php include "header.php"; ?>
     <!-- about us area wrapper main -->
-    <div class="rts-breadcrumb-area" style="height:unset">
+    <div class="rts-breadcrumb-area" style="background-image: url('custom/real-time-tracking.png');">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     <div class="title-area-left center project-breadcrumb">
                         <span class="bg-title">Our Solutions</span>
                         <h1 class="title rts-text-anime-style-1">
-                           Real-time Tracking  </h1>
-
-                        <img src ="custom/real-time-tracking.png" alt="Real-time Tracking" style="max-width:100%;height:auto; margin-top:20px; margin-bottom:20px;">
-
-                        <p class="disc">
-                            <strong>Know the Location. Anytime. Anywhere.</strong>
-                        </p>
-                        <p>
-                            In fast-moving environments, knowing the exact location of people, assets, or equipment at any given moment is critical. Our Real-Time Tracking Solution provides live location updates with high accuracy and instant data visualization, helping you improve safety, efficiency, and decision-making.
-                        </p>
-                        <h3>How Our Real-Time Tracking Works</h3>
-                        <ol>
-                            <li><strong>Tagging:</strong> Assets, equipment, or personnel are assigned a BLE beacon, RFID tag, or GPS tracker.</li>
-                            <li><strong>Signal Detection:</strong> Gateways equipped with BLE 5.0 chipsets or GPS modules detect the tag’s signal.</li>
-                            <li><strong>Data Transmission:</strong> Location data is sent securely to cloud platforms like AWS, Azure, or Google IoT.</li>
-                            <li><strong>Live Monitoring:</strong> View locations on an interactive dashboard with real-time updates.</li>
-                            <li><strong>Alerts &amp; Notifications:</strong> Receive instant alerts for zone breaches, inactivity, or unusual movement.</li>
-                        </ol>
-                        
-
+                           Real-time Tracking
+                        </h1>
                     </div>
                 </div>
             </div>
@@ -73,18 +51,37 @@ ol li ::marker{
 
 
     <!-- rts project details area start -->
-    <div class="rts-project-details-area-end rts-section-gapBottom">
+    <div class=" rts-section-gapBottom">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12">
-                    <div class="project-details-main-inner">
-                        <div class="project-details-thumbnail">
-                            <img src="assets/images/project/18.webp" alt="project">
-                        </div>
-                    </div>
+            <div class="col-lg-12">
+    <p>Know the Location. Anytime. Anywhere.</p>
+
+    <p>In fast-moving environments, knowing the exact location of people, assets, or equipment at any given moment is critical. Our Real-Time Tracking Solution provides live location updates with high accuracy and instant data visualization, helping you improve safety, efficiency, and decision-making.</p>
+
+    <p><strong>How Our Real-Time Tracking Works</strong></p>
+
+    <p><strong>Tagging:</strong> Assets, equipment, or personnel are assigned a BLE beacon, RFID tag, or GPS tracker.</p>
+
+    <p><strong>Signal Detection:</strong> Gateways equipped with BLE 5.0 chipsets or GPS modules detect the tag’s signal.</p>
+
+    <p><strong>Data Transmission:</strong> Location data is sent securely to cloud platforms like AWS, Azure, or Google IoT.</p>
+
+    <p><strong>Live Monitoring:</strong> View locations on an interactive dashboard with real-time updates.</p>
+
+    <p><strong>Alerts &amp; Notifications:</strong> Receive instant alerts for zone breaches, inactivity, or unusual movement.</p>
+
+            </div>
+
                 </div>
             </div>
         </div>
+
+                </div>
+                </div>
+            </div>
+        </div>
+     
     </div>
     <!-- rts project details area end -->
 

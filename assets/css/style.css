@@ -16948,7 +16948,7 @@ section.main-wrapper-sticky .sticky-statement.narrow .left-side img {
 
 .project-breadcrumb {
   padding: 130px 70px 70px 70px;
-  background: #fff;
+  /* background: #fff; */
   z-index: 1;
   max-width: max-content;
   margin: auto;

@@ -40,6 +40,9 @@
                 <li>
                     <a href="contact" class="main" aria-expanded="false">Contact</a>
                 </li>
+                   <li>
+                    <a href="blog" class="main" aria-expanded="false">Blog</a>
+                </li>
             </ul>
         </nav>
 

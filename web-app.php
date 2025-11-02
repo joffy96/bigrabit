@@ -27,7 +27,7 @@
 <body>
   <?php include "header.php"; ?>
     <!-- about us area wrapper main -->
-    <div class="rts-breadcrumb-area" style="height:unset">
+    <div class="rts-breadcrumb-area" style="background-image: url('custom/web-app.png');">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -36,44 +36,6 @@
                         <h1 class="title rts-text-anime-style-1">
                             Web App
                         </h1>
-                        <img src ="custom/web-app.png" alt="Web app" style="max-width:100%;height:auto; margin-top:20px; margin-bottom:20px;">
-                        <div class="web-app-description">
-                            <p>
-                              At BiGRABiT, we provide complete Web Application Solutions that transform IoT data into actionable insights. Our cloud-based platforms integrate seamlessly with BLE beacons, NFC, wearables, and gateways to deliver real-time analytics, visitor insights, and location-based services through a single, easy-to-use dashboard.
-                            </p>
-                            
-<div class="web-app-features">
-    <h2 class="highlight mb-3">What We Provide</h2>
-    <div class="feature-list">
-        <div class="feature-item">
-            <strong>Visitor Analytics:</strong> Measure how many people enter, exit, and move within your facility.
-        </div>
-        <div class="feature-item">
-            <strong>Real-Time Customer Engagement:</strong> Deliver personalized offers, notifications, or guidance through Bluetooth, NFC, or QR codes.
-        </div>
-        <div class="feature-item">
-            <strong>Asset and Resource Tracking:</strong> Monitor inventory, equipment, and staff using IoT-based location tracking.
-        </div>
-        <div class="feature-item">
-            <strong>Secure Access Management:</strong> Digitally manage visitor entry, employee check-ins, and restricted zones.
-        </div>
-        <div class="feature-item">
-            <strong>Cloud-Based Dashboard:</strong> Access your data anywhere, anytime, from desktop, tablet, or mobile.
-        </div>
-    </div>
-</div>
-<style>
-.web-app-features { margin-top: 2em; }
-.web-app-features .highlight { color: #007bff; font-weight: bold; }
-.web-app-features .feature-list { padding-left: 0; }
-.web-app-features .feature-item { margin-bottom: 0.7em; line-height: 1.6; display: block; }
-</style>
-                        </div>
-                        <style>
-                        .web-app-description { font-size: 1.1em; line-height: 1.7; }
-                        .web-app-description .highlight { color: #007bff; font-weight: bold; }
-                        </style>
-
                     </div>
                 </div>
             </div>
@@ -88,7 +50,36 @@
 
 
     <!-- rts project details area start -->
-  
+    <div class=" rts-section-gapBottom">
+        <div class="container">
+            <div class="row">
+            <div class="col-lg-12">
+<p>At BiGRABiT, we provide complete Web Application Solutions that transform IoT data into actionable insights. Our cloud-based platforms integrate seamlessly with BLE beacons, NFC, wearables, and gateways to deliver real-time analytics, visitor insights, and location-based services through a single, easy-to-use dashboard.</p>
+
+<p>What We Provide</p>
+
+<p>Visitor Analytics: Measure how many people enter, exit, and move within your facility.</p>
+
+<p>Real-Time Customer Engagement: Deliver personalized offers, notifications, or guidance through Bluetooth, NFC, or QR codes.</p>
+
+<p>Asset and Resource Tracking: Monitor inventory, equipment, and staff using IoT-based location tracking.</p>
+
+<p>Secure Access Management: Digitally manage visitor entry, employee check-ins, and restricted zones.</p>
+
+<p>Cloud-Based Dashboard: Access your data anywhere, anytime, from desktop, tablet, or mobile.</p>
+
+            </div>
+
+                </div>
+            </div>
+        </div>
+
+                </div>
+                </div>
+            </div>
+        </div>
+     
+    </div>
     <!-- rts project details area end -->
 
 

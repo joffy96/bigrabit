@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
-        content="Invena – A modern and responsive HTML template for consulting businesses. Perfect for finance, corporate, and agency websites. SEO-friendly, fast-loading, and easy to customize. Create a professional online presence today!">
+        content="Bigrabit Contact Page">
     <link rel="shortcut icon" type="image/x-icon" href="assets/images/fav.png">
-    <title>Invena Business Consulting HTML Template</title>
+    <title>Bigrabit Contact Page</title>
     <link rel="stylesheet preload" href="assets/css/plugins/fontawesome.css" as="style">
     <link rel="stylesheet preload" href="assets/css/plugins/swiper.css" as="style">
     <link rel="stylesheet preload" href="assets/css/plugins/metismenu.css" as="style">
@@ -92,7 +92,7 @@ Building No. 6, Millennium Business Park,Sector-3, Mahape, Navi Mumbai - 400710.
                 </div>
                 <div class="col-lg-3">
                     <div class="contact-form-p">
-                        <form class="form__content" method="post" action="mailer.php" id="contact-form">
+                        <form class="form__content" method="post" action="mailer.php" id="contact-form_custom">
                             <h4 class="title">Get In Touch</h4>
                             <input name="name" id="name" type="text" placeholder="Your Name">
                             <input type="email" name="email" id="email" placeholder="Johndoe@gmail.com">
@@ -216,3 +216,52 @@ Building No. 6, Millennium Business Park,Sector-3, Mahape, Navi Mumbai - 400710.
 </body>
 
 </html>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    var form = document.getElementById('contact-form_custom');
+    if (!form) return;
+    var messages = document.getElementById('form-messages');
+
+    form.addEventListener('submit', function (e) {
+        e.preventDefault();
+        messages.innerHTML = '';
+
+        var submitBtn = form.querySelector('button[type="submit"]');
+        if (submitBtn) submitBtn.disabled = true;
+
+        var formData = new FormData(form);
+
+        fetch(form.action || 'mailer.php', {
+            method: 'POST',
+            body: formData,
+            credentials: 'same-origin'
+        })
+            .then(function (res) { return res.text(); })
+            .then(function (text) {
+                var data = null;
+                try { data = JSON.parse(text); } catch (err) { /* not JSON */ }
+
+                if (data && typeof data.success !== 'undefined') {
+                    if (data.success) {
+                        messages.innerHTML = '<div class="success">' + (data.message || 'Message sent.') + '</div>';
+                        form.reset();
+                    } else {
+                        messages.innerHTML = '<div class="error">' + (data.message || 'There was an error.') + '</div>';
+                    }
+                } else {
+                    // fallback to plain text response
+                    messages.innerHTML = '<div class="success" style="color:green;">Message Sent</div>';
+                    form.reset();
+                }
+            })
+            .catch(function () {
+                messages.innerHTML = '<div class="error">Request failed. Please try again later.</div>';
+            })
+            .finally(function () {
+                if (submitBtn) submitBtn.disabled = false;
+            });
+    });
+});
+
+</script>

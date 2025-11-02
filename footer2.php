@@ -4,7 +4,7 @@
                 <div class="col-lg-3">
                     <div class="footer-logo-area-left-8">
                         <a href="#" class="logo">
-                            <img src="assets/images/logo/bigrabit.png" style="width: 100px;" alt="logo">
+                            <img src="assets/images/logo/bigrabit-new.png" style="swidth: 100px;background: aliceblue;" alt="logo">
                         </a>
                         Bigrabit delivers innovative digital solutions to help your business grow. We combine creativity and technology to drive success for our clients.
                         </p>

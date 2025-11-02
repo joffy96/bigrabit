@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
-        content="Way Finding">
+        content="Kiosks">
     <link rel="shortcut icon" type="image/x-icon" href="assets/images/fav.png">
     <title>Kiosks</title>
     <link rel="stylesheet preload" href="assets/css/plugins/fontawesome.css" as="style">
@@ -27,32 +27,15 @@
 <body>
   <?php include "header.php"; ?>
     <!-- about us area wrapper main -->
-    <div class="rts-breadcrumb-area" style="height:unset">
+    <div class="rts-breadcrumb-area" style="background-image: url('custom/kiosks.jpg');">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     <div class="title-area-left center project-breadcrumb">
                         <span class="bg-title">Our Solutions</span>
                         <h1 class="title rts-text-anime-style-1">
-                           Kiosks </h1>
-                        <img src ="custom/kiosks.jpg" alt="Kiosks" style="max-width:100%;height:auto; margin-top:20px; margin-bottom:20px;">
-                        <p class="disc">
-                            <strong>Interactive, Self-Service, and Always Available</strong><br>
-                            Kiosks are no longer just information points; they are powerful self-service hubs that enhance visitor experience, reduce staff workload, and deliver information instantly. Our Kiosk Solutions combine cutting-edge hardware and smart software to create an interactive point of engagement for your visitors, customers, or employees.
-                        </p>
-                        <p class="disc">
-                            <strong>How Our Kiosk Solutions Work</strong><br>
-                            By installing a kiosk in high-traffic areas like entrances, lobbies, and waiting zones, we help manage foot traffic in crowded places such as airports, malls, or exhibitions.
-                        </p>
-                        <div class="disc" style="margin-bottom: 1em;">
-                            <span style="display:block; margin-bottom:0.5em;"><strong>1.</strong> User Interaction – Visitors use touchscreens, QR codes, or NFC to access information.</span>
-                            <span style="display:block; margin-bottom:0.5em;"><strong>2.</strong> Connected to Cloud or server from the backend.</span>
-                            <span style="display:block; margin-bottom:0.5em;"><strong>3.</strong> Multi-Function Capability – Integrates indoor navigation, real-time tracking, wayfinding, and visitor management into one device.</span>
-                            <span style="display:block;"><strong>4.</strong> Secure &amp; Reliable – Built with high-performance hardware and encrypted data transfer.</span>
-                        </div>
-
-                        
-
+                           Kiosks
+                        </h1>
                     </div>
                 </div>
             </div>
@@ -67,7 +50,31 @@
 
 
     <!-- rts project details area start -->
+    <div class=" rts-section-gapBottom">
+        <div class="container">
+            <div class="row">
+            <div class="col-lg-12">
+<p>Interactive, Self-Service, and Always Available</p>
+<p>Kiosks are no longer just information points; they are powerful self-service hubs that enhance visitor experience, reduce staff workload, and deliver information instantly. Our Kiosk Solutions combine cutting-edge hardware and smart software to create an interactive point of engagement for your visitors, customers, or employees.</p>
+<p>How Our Kiosk Solutions Work</p>
+<p>By installing a kiosk in high-traffic areas like entrances, lobbies, and waiting zones, we help manage foot traffic in crowded places such as airports, malls, or exhibitions.</p>
+<p>1. User Interaction – Visitors use touchscreens, QR codes, or NFC to access information.</p>
+<p>2. Connected to Cloud or server from the backend.</p>
+<p>3. Multi-Function Capability – Integrates indoor navigation, real-time tracking, wayfinding, and visitor management into one device.</p>
+<p>4. Secure & Reliable – Built with high-performance hardware and encrypted data transfer.</p>
 
+            </div>
+
+                </div>
+            </div>
+        </div>
+
+                </div>
+                </div>
+            </div>
+        </div>
+     
+    </div>
     <!-- rts project details area end -->
 
 
