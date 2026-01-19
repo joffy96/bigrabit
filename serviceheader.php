@@ -38,26 +38,26 @@
                         <li>
                             <a href="real-time-tracking">
                                 <div class="single-service-menu">
-                                   
+
                                     <div class="info">
                                         <span class="title">Real Time Tracking</span>
-                                      
+
                                     </div>
                                 </div>
                             </a>
                         </li>
-                       
+
                     </ul>
                 </div>
                 <div class="col-lg-4">
                     <ul class="mega-menu-item parent-nav">
-                         <li>
+                        <li>
                             <a href="kiosks">
                                 <div class="single-service-menu">
-                                   
+
                                     <div class="info">
                                         <span class="title">Kiosks</span>
-                                      
+
                                     </div>
                                 </div>
                             </a>
@@ -74,10 +74,10 @@
                         <li>
                             <a href="asset-tracking">
                                 <div class="single-service-menu">
-                                  
+
                                     <div class="info">
                                         <span class="title">Asset Tracking</span>
-                                      
+
                                     </div>
                                 </div>
                             </a>
@@ -86,13 +86,13 @@
                 </div>
                 <div class="col-lg-4">
                     <ul class="mega-menu-item parent-nav">
-                         <li>
+                        <li>
                             <a href="web-app">
                                 <div class="single-service-menu">
-                                   
+
                                     <div class="info">
                                         <span class="title">Web App</span>
-                                      
+
                                     </div>
                                 </div>
                             </a>
@@ -106,7 +106,16 @@
                                 </div>
                             </a>
                         </li>
-                       
+                        <li>
+                            <a href="visitor-management">
+                                <div class="single-service-menu">
+                                    <div class="info">
+                                        <span class="title">Visitor Management</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+
                     </ul>
                 </div>
             </div>

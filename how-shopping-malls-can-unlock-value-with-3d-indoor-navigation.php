@@ -30,7 +30,7 @@
 
 
     <div style="height: 703px;
-    background-image: url(assets/blogs/1.png);
+    background-image: url(custom/blogs/1.jpg);
     background-attachment: fixed;
     background-position: center, center;
     background-size: cover;" >
